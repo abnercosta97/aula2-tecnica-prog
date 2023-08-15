@@ -2,12 +2,12 @@ class Pessoa {
   nome: string;
   idade: number;
 
-  constructor(nome:string ,idade:number){
+  constructor(nome: string, idade: number) {
     this.nome = nome;
     this.idade = idade;
   }
 
-  imprimir() {
+  imprimir():void {
     console.log(`${this.nome} possui ${this.idade} anos`);
   }
 }
