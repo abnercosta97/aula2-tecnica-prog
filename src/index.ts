@@ -9,4 +9,6 @@ class Pessoa {
 
 const p = new Pessoa();
 p.imprimir();
+p.nome = "Abner";
+p.imprimir();
 
