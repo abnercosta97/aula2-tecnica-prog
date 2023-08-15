@@ -2,9 +2,9 @@ class Pessoa {
   nome: string;
   idade: number;
 
-  constructor(a:string ,b:number){
-    this.nome = a;
-    this.idade = b;
+  constructor(nome:string ,idade:number){
+    this.nome = nome;
+    this.idade = idade;
   }
 
   imprimir() {
