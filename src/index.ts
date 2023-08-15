@@ -1,18 +1,19 @@
 class Pessoa {
-  nome: string = "Ana";
-  idade: number = 22;
+  nome: string;
+  idade: number;
+
+  constructor(a:string ,b:number){
+    this.nome = a;
+    this.idade = b;
+  }
 
   imprimir() {
     console.log(`${this.nome} possui ${this.idade} anos`);
   }
 }
 
-const p = new Pessoa();
-p.nome = "Abner";
-
-const q = new Pessoa();
-q.nome = "Rodrigo";
-
+const p = new Pessoa("Abner", 26);
+const q = new Pessoa("Jessica", 29);
 p.imprimir();
 q.imprimir();
 
