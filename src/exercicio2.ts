@@ -11,8 +11,7 @@ class Retangulo {
   perimetro(): number {
     return 2 * this.base + 2 * this.altura;
   }
-  print
 }
 const a = new Retangulo(2,3);
-a.area();
-a.perimetro;
+console.log("Area:", a.area())
+console.log("Perimetro:", a.perimetro())
